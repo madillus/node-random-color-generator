@@ -1,12 +1,22 @@
 const randomColor = require('randomColor');
 const chalk = require('chalk');
 
+const chooseColor = {
+  hue: process.argv[2],
+  luminosity: process.argv[3],
+};
 
+const colorInput = randomColor(chooseColor);
 
-console.log(randomColor({ hue: 'random', luminosity: 'random', count: 1 }));
-console.log(chalk('Hello world!'));
+const hexSquare = `
+############################## 
+############################## 
+##############################   
+########              ########
+########    ${colorInput}   ########
+########              ########
+##############################
+##############################
+##############################` ;
 
-if (randomColor.chalk) { console.log("I'm right") }
-else { console.log("I'm stupid") }
-
-
+console.log(chalk.hex(`${colorInput}`).bold(`${hexSquare}`));
