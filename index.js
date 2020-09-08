@@ -1,4 +1,4 @@
-const randomColor = require('randomcolor');
+const randomcolor = require('randomcolor');
 const chalk = require('chalk');
 
 const chooseColor = {
