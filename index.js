@@ -1,4 +1,4 @@
-const randomColor = require('randomColor');
+const randomColor = require('randomcolor');
 const chalk = require('chalk');
 
 const chooseColor = {
@@ -6,7 +6,7 @@ const chooseColor = {
   luminosity: process.argv[3],
 };
 
-const colorInput = randomColor(chooseColor);
+const colorInput = randomcolor(chooseColor);
 
 const hexSquare = `
 ############################## 
