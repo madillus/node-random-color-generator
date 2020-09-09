@@ -8,8 +8,8 @@ const chooseColor = {
 
 const colorInput = randomcolor(chooseColor);
 
-const hexSquare = `
-############################## 
+const hexSquare =
+  `############################## 
 ############################## 
 ##############################   
 ########              ########

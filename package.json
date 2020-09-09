@@ -1,0 +1,8 @@
+{
+  "name": "node-random-color-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/madillus/node-random-color-generator.git",
+  "author": "Aidan Gilmore <aidangilmore1@gmail.com>",
+  "license": "MIT"
+}
